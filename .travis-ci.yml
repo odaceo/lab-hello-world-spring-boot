@@ -1,0 +1,10 @@
+language: java
+
+cache:
+  directories:
+    - '$HOME/.m2/repository'
+
+dk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk7
