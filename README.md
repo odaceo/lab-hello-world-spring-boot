@@ -63,18 +63,18 @@ curl http://localhost:9090/health
 Step-by-step instructions for releasing the application:
 
 1. Start a new release
-``` shell
-git flow release start 0.1.0
-```
+  ``` shell
+  git flow release start 0.1.0
+  ```
 1. Bump the version number
-``` shell
-mvn versions:set -DnewVersion=0.1.0 
-```
+  ``` shell
+  mvn versions:set -DnewVersion=0.1.0 
+  ```
 1. Update the documentation
 1. Finish the release
-``` shell
-git flow release finish 0.1.0
-```
+  ``` shell
+  git flow release finish 0.1.0
+  ```
 
 Make sure the version has been successfully uploaded to [Bintray](https://bintray.com/odaceo/maven/lab-spring-boot-hello-world).
 
