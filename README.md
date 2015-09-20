@@ -11,9 +11,8 @@ A Simple web application with Spring Boot.
 
 As craftsmen we love crafting softwares on a clean workbench. 
 
-We believe that a clean workbench helps us focus on what really matters:
-
-> handcrafting every design and code with great care. 
+We believe that a clean workbench helps us focus on what really matters: 
+_handcrafting every design and code with great care_. 
 
 [Vagrant](https://www.vagrantup.com/) helps us create such a workbench and install 
 the prerequisites, and nothing more.
