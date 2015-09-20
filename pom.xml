@@ -5,7 +5,7 @@
 
     <groupId>ch.odaceo.lab.springboot</groupId>
     <artifactId>hello-world</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <packaging>jar</packaging>
 
     <name>Lab | Spring Boot | Hello World</name>
@@ -99,7 +99,7 @@
     <distributionManagement>
         <repository>
             <id>odaceo-oss-maven</id>
-            <url>https://api.bintray.com/maven/odaceo/maven/lab-spring-boot-hello-world</url>
+            <url>https://api.bintray.com/maven/odaceo/maven/lab-spring-boot-hello-world/;publish=1</url>
         </repository>
     </distributionManagement>
 
