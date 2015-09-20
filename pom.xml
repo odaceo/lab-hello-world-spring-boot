@@ -97,8 +97,8 @@
         
     <distributionManagement>
         <repository>
-            <id>odaceo-maven</id>
-            <name>Open Source Software </name>
+            <id>odaceo-oss-maven</id>
+            <name>Open Source Software repository for Maven Java artifacts.</name>
             <url>https://api.bintray.com/maven/odaceo/maven</url>
         </repository>
     </distributionManagement>
