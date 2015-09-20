@@ -60,7 +60,7 @@ curl http://localhost:9090/health
 
 ## Reporting Issues
 
-Issues can be reported at [https://github.com/odaceo/lab-spring-boot-hello-world/issues](https://github.com/odaceo/lab-spring-boot-hello-world)
+Issues can be reported at [https://github.com/odaceo/lab-spring-boot-hello-world/issues](https://github.com/odaceo/lab-spring-boot-hello-world/issues)
 
 ## Source code
 
