@@ -7,6 +7,58 @@
 
 A Simple web application with Spring Boot.
 
+## Prerequisites
+
+As craftsmen we love crafting softwares on a clean workbench. 
+
+We believe that a clean workbench helps us focus on what really matters:
+
+> handcrafting every design and code with great care. 
+
+[Vagrant](https://www.vagrantup.com/) helps us create such a workbench and install 
+the prerequisites, and nothing more.
+
+As a benefit, we keep our tools as clean as possible over time.  
+
+[Vagrant](https://www.vagrantup.com/downloads.html) must be installed on your 
+computer to mount the workbench for this project.
+
+Open a Terminal and run the following commands:
+
+```shell
+vagrant up
+vagrant ssh
+cd /vagrant
+```
+
+## Building the application
+
+The build command creates a standalone JAR file.
+
+``` shell
+mvn clean package
+```
+
+## Running the application
+
+To launch the application use the following command:
+
+``` shell
+java -jar target/hello-world-1.0.0-SNAPSHOT.jar
+```
+
+To run the service use the following command: 
+
+``` shell
+curl http://localhost:8080/greeting?name=Alexandre
+```
+
+To check the application's health use the following command:
+
+``` shell
+curl http://localhost:9090/health
+```
+
 ## Reporting Issues
 
 Issues can be reported at [https://github.com/odaceo/lab-spring-boot-hello-world/issues](https://github.com/odaceo/lab-spring-boot-hello-world)
