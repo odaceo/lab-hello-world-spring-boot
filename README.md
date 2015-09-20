@@ -43,7 +43,7 @@ mvn clean package
 To launch the application use the following command:
 
 ``` shell
-java -jar target/hello-world-1.0.0-SNAPSHOT.jar
+java -jar target/hello-world-0.1.0.jar
 ```
 
 To run the service use the following command: 
