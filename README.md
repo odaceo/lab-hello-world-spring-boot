@@ -9,7 +9,7 @@ A Simple web application with Spring Boot.
 
 ## Prerequisites
 
-As craftsmen we love crafting softwares on a clean workbench. 
+As craftsmen we love crafting software on a clean workbench. 
 
 We believe that a clean workbench helps us focus on what really matters: 
 _handcrafting every design and code with great care_. 
@@ -17,7 +17,7 @@ _handcrafting every design and code with great care_.
 [Vagrant](https://www.vagrantup.com/) helps us create such a workbench and install 
 the prerequisites, and nothing more.
 
-As a benefit, we keep our tools as clean as possible over time.  
+As a benefit, we keep our workbench as clean as possible over time.  
 
 [Vagrant](https://www.vagrantup.com/downloads.html) must be installed on your 
 computer to mount the workbench for this project.
