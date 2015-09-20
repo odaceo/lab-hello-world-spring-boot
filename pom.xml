@@ -87,7 +87,8 @@
         <url>https://github.com/odaceo/lab-spring-boot-hello-world</url>
         <connection>scm:git:git://github.com/odaceo/lab-spring-boot-hello-world.git</connection>
         <developerConnection>scm:git:git@github.com:odaceo/lab-spring-boot-hello-world.git</developerConnection>
-    </scm>
+        <tag>HEAD</tag>
+    </scm>    
   
     <ciManagement>
         <system>Travis CI</system>
@@ -98,8 +99,7 @@
     <distributionManagement>
         <repository>
             <id>odaceo-oss-maven</id>
-            <name>Open Source Software repository for Maven Java artifacts.</name>
-            <url>https://api.bintray.com/maven/odaceo/maven</url>
+            <url>https://api.bintray.com/maven/odaceo/maven/lab-spring-boot-hello-world</url>
         </repository>
     </distributionManagement>
 
