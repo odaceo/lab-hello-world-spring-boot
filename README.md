@@ -75,8 +75,8 @@ Step-by-step instructions for releasing the application:
   ``` shell
   git flow release finish 0.1.0
   ```
-
-Make sure the version has been successfully uploaded to [Bintray](https://bintray.com/odaceo/maven/lab-spring-boot-hello-world).
+  
+Make sure all artifacts have been successfully uploaded to [Bintray](https://bintray.com/odaceo/maven/lab-spring-boot-hello-world).
 
 ## Reporting Issues
 
