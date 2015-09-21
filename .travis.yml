@@ -7,7 +7,7 @@ cache:
   directories:
     - '$HOME/.m2/repository'
 
-script: mvn -B verify
+script: mvn verify -B
 
 after_success:
   - "[[ ${TRAVIS_TAG} != '' ]] && mvn deploy -DskipTests --settings deploy/settings.xml"
