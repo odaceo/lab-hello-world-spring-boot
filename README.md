@@ -72,7 +72,7 @@ Step-by-step instructions for releasing the application:
 
 1. Update the documentation
 
-1. Commit the pending changes
+1. Commit pending changes
 
         git commit -am "Bump the version number"
 
