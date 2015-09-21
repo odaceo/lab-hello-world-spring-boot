@@ -33,7 +33,7 @@ import org.springframework.web.client.RestTemplate;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)
 @WebIntegrationTest({"server.port=0", "management.port=0"})
-public class GreetingControllerTest {
+public class GreetingControllerIT {
 
     @Value("${local.server.port}")
     private int serverPort;
