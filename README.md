@@ -43,7 +43,7 @@ mvn clean package
 To launch the application use the following command:
 
 ``` shell
-java -jar target/hello-world-0.2.0.jar
+java -jar target/hello-world-0.3.0.jar
 ```
 
 To run the service use the following command: 
@@ -64,11 +64,11 @@ Step-by-step instructions for releasing the application:
 
 1. Start a new release
 
-        git flow release start 0.2.0
+        git flow release start 0.3.0
 
 1. Bump the version number
 
-        mvn versions:set -DnewVersion=0.2.0 
+        mvn versions:set -DnewVersion=0.3.0 
 
 1. Update the documentation
 
@@ -78,7 +78,7 @@ Step-by-step instructions for releasing the application:
 
 1. Finish the release
 
-        git flow release finish -m "Release 0.2.0" 0.2.0
+        git flow release finish -m "Release 0.3.0" 0.3.0
   
 Make sure all artifacts have been successfully uploaded to [Bintray](https://bintray.com/odaceo/maven/lab-spring-boot-hello-world).
 
