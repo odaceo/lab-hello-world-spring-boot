@@ -10,7 +10,7 @@
 
     <name>Lab | Spring Boot | Hello World</name>
     <description>Simple web application with Spring Boot.</description>
-    <url>https://github.com/odaceo/lab-spring-boot-hello-world</url>
+    <url>https://github.com/odaceo/lab-hello-world-spring-boot</url>
     <inceptionYear>2015</inceptionYear>
     
     <parent>
@@ -98,26 +98,26 @@
 
     <issueManagement>
         <system>GitHub Issues</system>        
-        <url>https://github.com/odaceo/lab-spring-boot-hello-world/issues</url>
+        <url>https://github.com/odaceo/lab-hello-world-spring-boot/issues</url>
     </issueManagement>
   
     <scm>
-        <url>https://github.com/odaceo/lab-spring-boot-hello-world</url>
-        <connection>scm:git:git://github.com/odaceo/lab-spring-boot-hello-world.git</connection>
-        <developerConnection>scm:git:git@github.com:odaceo/lab-spring-boot-hello-world.git</developerConnection>
+        <url>https://github.com/odaceo/lab-hello-world-spring-boot</url>
+        <connection>scm:git:git://github.com/odaceo/lab-hello-world-spring-boot.git</connection>
+        <developerConnection>scm:git:git@github.com:odaceo/lab-hello-world-spring-boot.git</developerConnection>
         <tag>HEAD</tag>
     </scm>    
   
     <ciManagement>
         <system>Travis CI</system>
-        <url>https://travis-ci.org/odaceo/lab-spring-boot-hello-world</url>
+        <url>https://travis-ci.org/odaceo/lab-hello-world-spring-boot</url>
         <notifiers />
     </ciManagement>
         
     <distributionManagement>
         <repository>
             <id>odaceo-oss-maven</id>
-            <url>https://api.bintray.com/maven/odaceo/maven/lab-spring-boot-hello-world/;publish=1</url>
+            <url>https://api.bintray.com/maven/odaceo/maven/lab-hello-world-spring-boot/;publish=1</url>
         </repository>
     </distributionManagement>
 
