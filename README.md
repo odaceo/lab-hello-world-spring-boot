@@ -1,7 +1,7 @@
 # Lab | Hello World Spring Boot Application
 
-[![Build Status](https://travis-ci.org/odaceo/lab-spring-boot-hello-world.svg)](https://travis-ci.org/odaceo/lab-spring-boot-hello-world)
-[![License](https://img.shields.io/github/license/odaceo/lab-spring-boot-hello-world.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/odaceo/lab-hello-world-spring-boot.svg)](https://travis-ci.org/odaceo/lab-hello-world-spring-boot)
+[![License](https://img.shields.io/github/license/odaceo/lab-hello-world-spring-boot.svg)](LICENSE)
 
 ## Description
 
@@ -80,15 +80,15 @@ Step-by-step instructions for releasing the application:
 
         git flow release finish -m "Release 0.3.0" 0.3.0
   
-Make sure all artifacts have been successfully uploaded to [Bintray](https://bintray.com/odaceo/maven/lab-spring-boot-hello-world).
+Make sure all artifacts have been successfully uploaded to [Bintray](https://bintray.com/odaceo/maven/lab-hello-world-spring-boot).
 
 ## Reporting Issues
 
-Issues can be reported at [https://github.com/odaceo/lab-spring-boot-hello-world/issues](https://github.com/odaceo/lab-spring-boot-hello-world/issues)
+Issues can be reported at [https://github.com/odaceo/lab-hello-world-spring-boot/issues](https://github.com/odaceo/lab-hello-world-spring-boot/issues)
 
 ## Source code
 
-The source code is available at [https://github.com/odaceo/lab-spring-boot-hello-world](https://github.com/odaceo/lab-spring-boot-hello-world)
+The source code is available at [https://github.com/odaceo/lab-hello-world-spring-boot](https://github.com/odaceo/lab-hello-world-spring-boot)
 
 ## License
 
