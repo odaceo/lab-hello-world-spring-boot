@@ -26,4 +26,9 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "shell", privileged: false, 
     path: "https://github.com/odaceo/script-ubuntu-java/raw/master/install.sh"
+
+  config.vm.provision "shell", inline: <<-SHELL
+    # Install Git Flow extension
+    sudo apt-get install -y git-flow
+  SHELL
 end
