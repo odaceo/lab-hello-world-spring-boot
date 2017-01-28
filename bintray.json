@@ -1,0 +1,31 @@
+{
+    "package": {
+        "name": "lab-hello-world-spring-boot",
+        "repo": "maven",
+        "subject": "odaceo",
+        "desc": "A Simple web application with Spring Boot.",
+        "website_url": "https://github.com/odaceo/lab-hello-world-spring-boot",
+        "issue_tracker_url": "https://github.com/odaceo/lab-hello-world-spring-boot/issues",
+        "vcs_url": "https://github.com/odaceo/lab-hello-world-spring-boot.git",
+        "licenses": ["Apache-2.0"],
+        "public_download_numbers": true,
+        "public_stats": true
+    },
+
+    "version": {
+        "name": "0.6.0",
+        "gpgSign": false
+    },
+
+    "files": [
+        {
+            "includePattern": "target/(.*\.jar)", 
+            "uploadPattern": "/$1",
+            "matrixParams": {
+                "override": 1 
+            }
+        }
+    ],
+
+    "publish": true
+}

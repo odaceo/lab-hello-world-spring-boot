@@ -113,13 +113,6 @@
         <notifiers />
     </ciManagement>
         
-    <distributionManagement>
-        <repository>
-            <id>odaceo-oss-maven</id>
-            <url>https://api.bintray.com/maven/odaceo/maven/lab-hello-world-spring-boot/;publish=1</url>
-        </repository>
-    </distributionManagement>
-
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>

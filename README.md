@@ -1,7 +1,7 @@
 # Lab :: Hello World :: Spring Boot Application
 
-[![Build Status](https://travis-ci.org/odaceo/lab-hello-world-spring-boot.svg)](https://travis-ci.org/odaceo/lab-hello-world-spring-boot)
 [![License](https://img.shields.io/github/license/odaceo/lab-hello-world-spring-boot.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/odaceo/lab-hello-world-spring-boot.svg)](https://travis-ci.org/odaceo/lab-hello-world-spring-boot)
 
 ## Description
 
@@ -71,6 +71,8 @@ Step-by-step instructions for releasing the application:
         mvn versions:set -DnewVersion=0.6.0 
 
 1. Update the documentation
+
+1. Update the bintray.json
 
 1. Commit pending changes
 
