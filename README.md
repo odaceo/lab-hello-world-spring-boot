@@ -64,11 +64,11 @@ Step-by-step instructions for releasing the application:
 
 1. Start a new release
 
-        git flow release start 0.6.0
+        git flow release start 0.7.0
 
 1. Bump the version number
 
-        mvn versions:set -DnewVersion=0.6.0 
+        mvn versions:set -DnewVersion=0.7.0 
 
 1. Update the documentation
 
@@ -80,11 +80,15 @@ Step-by-step instructions for releasing the application:
 
 1. Finish the release
 
-        git flow release finish -m "Release 0.6.0" 0.6.0
+        git flow release finish -m "Release 0.7.0" 0.7.0
 
 1. Bump the version number of the develop branch
 
-        mvn versions:set -DnewVersion=0.7.0-SNAPSHOT 
+        mvn versions:set -DnewVersion=0.8.0-SNAPSHOT 
+
+1. Commit pending changes
+
+        git commit -am "Bump the version number"
 
 Make sure all artifacts have been successfully uploaded to [Bintray](https://bintray.com/odaceo/maven/lab-hello-world-spring-boot).
 
