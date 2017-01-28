@@ -43,7 +43,7 @@ mvn clean package
 To launch the application use the following command:
 
 ``` shell
-java -jar target/hello-world-springboot-0.6.0-SNAPSHOT.jar
+java -jar target/hello-world-springboot-0.7.0-SNAPSHOT.jar
 ```
 
 To run the service use the following command: 
@@ -70,9 +70,9 @@ Step-by-step instructions for releasing the application:
 
         mvn versions:set -DnewVersion=0.7.0 
 
-1. Update the documentation
+1. Update the bintray.json with the new version
 
-1. Update the bintray.json
+1. Update the documentation
 
 1. Commit pending changes
 
