@@ -1,4 +1,4 @@
-# Lab | Hello World Spring Boot Application
+# Lab :: Hello World :: Spring Boot Application
 
 [![Build Status](https://travis-ci.org/odaceo/lab-hello-world-spring-boot.svg)](https://travis-ci.org/odaceo/lab-hello-world-spring-boot)
 [![License](https://img.shields.io/github/license/odaceo/lab-hello-world-spring-boot.svg)](LICENSE)
