@@ -43,7 +43,7 @@ mvn clean package
 To launch the application use the following command:
 
 ``` shell
-java -jar target/hello-world-0.5.1.jar
+java -jar target/hello-world-springboot-0.6.0-SNAPSHOT.jar
 ```
 
 To run the service use the following command: 
@@ -81,7 +81,11 @@ Step-by-step instructions for releasing the application:
 1. Finish the release
 
         git flow release finish -m "Release 0.6.0" 0.6.0
-  
+
+1. Bump the version number of the develop branch
+
+        mvn versions:set -DnewVersion=0.7.0-SNAPSHOT 
+
 Make sure all artifacts have been successfully uploaded to [Bintray](https://bintray.com/odaceo/maven/lab-hello-world-spring-boot).
 
 ## Reporting Issues
