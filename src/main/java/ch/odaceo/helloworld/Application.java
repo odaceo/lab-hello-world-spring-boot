@@ -19,7 +19,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author Alexandre Garino <alexandre.garino@odaceo.ch>
+ * @author Alexandre GARINO <alexandre.garino@odaceo.ch>
  */
 @SpringBootApplication
 public class Application {

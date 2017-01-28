@@ -88,10 +88,9 @@
 
     <developers>
         <developer>
-            <id>AlexandreGarino</id>
-            <name>Alexandre Garino</name>
+            <id>AlexandreGARINO</id>
+            <name>Alexandre GARINO</name>
             <email>alexandre.garino@odaceo.ch</email>
-            <url>http://odaceo.ch/~people/alexandre.garino</url>
             <timezone>Europe/Zurich</timezone>
         </developer>
     </developers>
