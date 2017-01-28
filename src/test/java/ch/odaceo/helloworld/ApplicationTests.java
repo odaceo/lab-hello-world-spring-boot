@@ -23,7 +23,7 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
- * @author Alexandre Garino <alexandre.garino@odaceo.ch>
+ * @author Alexandre GARINO <alexandre.garino@odaceo.ch>
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = Application.class)

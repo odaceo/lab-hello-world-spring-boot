@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>ch.odaceo.lab.springboot</groupId>
-    <artifactId>hello-world</artifactId>
-    <version>0.5.1</version>
+    <groupId>ch.odaceo.lab.hello-world</groupId>
+    <artifactId>hello-world-springboot</artifactId>
+    <version>0.6.0</version>
     <packaging>jar</packaging>
 
-    <name>Lab | Spring Boot | Hello World</name>
+    <name>Lab :: Spring Boot :: Hello World</name>
     <description>Simple web application with Spring Boot.</description>
     <url>https://github.com/odaceo/lab-hello-world-spring-boot</url>
     <inceptionYear>2015</inceptionYear>
@@ -16,13 +16,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.2.6.RELEASE</version>
+        <version>1.4.4.RELEASE</version>
         <relativePath/>
     </parent>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
     </properties>
 
     <dependencies>
@@ -88,10 +88,9 @@
 
     <developers>
         <developer>
-            <id>AlexandreGarino</id>
-            <name>Alexandre Garino</name>
+            <id>alexandre.garino</id>
+            <name>Alexandre GARINO</name>
             <email>alexandre.garino@odaceo.ch</email>
-            <url>http://odaceo.ch/~people/alexandre.garino</url>
             <timezone>Europe/Zurich</timezone>
         </developer>
     </developers>
@@ -114,13 +113,6 @@
         <notifiers />
     </ciManagement>
         
-    <distributionManagement>
-        <repository>
-            <id>odaceo-oss-maven</id>
-            <url>https://api.bintray.com/maven/odaceo/maven/lab-hello-world-spring-boot/;publish=1</url>
-        </repository>
-    </distributionManagement>
-
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>

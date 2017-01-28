@@ -1,7 +1,7 @@
-# Lab | Hello World Spring Boot Application
+# Lab :: Hello World :: Spring Boot Application
 
-[![Build Status](https://travis-ci.org/odaceo/lab-hello-world-spring-boot.svg)](https://travis-ci.org/odaceo/lab-hello-world-spring-boot)
 [![License](https://img.shields.io/github/license/odaceo/lab-hello-world-spring-boot.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/odaceo/lab-hello-world-spring-boot.svg)](https://travis-ci.org/odaceo/lab-hello-world-spring-boot)
 
 ## Description
 
@@ -43,13 +43,13 @@ mvn clean package
 To launch the application use the following command:
 
 ``` shell
-java -jar target/hello-world-0.5.1.jar
+java -jar target/hello-world-springboot-0.6.0-SNAPSHOT.jar
 ```
 
 To run the service use the following command: 
 
 ``` shell
-curl http://localhost:8080/greeting?name=Alexandre
+curl http://localhost:8080/greeting?name=Odaceo
 ```
 
 To check the application's health use the following command:
@@ -72,6 +72,8 @@ Step-by-step instructions for releasing the application:
 
 1. Update the documentation
 
+1. Update the bintray.json
+
 1. Commit pending changes
 
         git commit -am "Bump the version number"
@@ -79,7 +81,11 @@ Step-by-step instructions for releasing the application:
 1. Finish the release
 
         git flow release finish -m "Release 0.6.0" 0.6.0
-  
+
+1. Bump the version number of the develop branch
+
+        mvn versions:set -DnewVersion=0.7.0-SNAPSHOT 
+
 Make sure all artifacts have been successfully uploaded to [Bintray](https://bintray.com/odaceo/maven/lab-hello-world-spring-boot).
 
 ## Reporting Issues

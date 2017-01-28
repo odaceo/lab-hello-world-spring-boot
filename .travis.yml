@@ -1,7 +1,7 @@
 language: java
 
 jdk:
-  - oraclejdk7
+  - oraclejdk8
 
 cache:
   directories:
@@ -9,5 +9,8 @@ cache:
 
 script: mvn verify -B
 
-after_success:
-  - "[[ ${TRAVIS_TAG} != '' ]] && mvn deploy -DskipTests --settings deploy/settings.xml"
+deploy:
+  provider: bintray
+  file: bintray.json
+  user: ${BINTRAY_USER}
+  key: ${BINTRAY_PASS}
