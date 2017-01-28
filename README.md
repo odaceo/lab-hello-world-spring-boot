@@ -49,7 +49,7 @@ java -jar target/hello-world-0.5.1.jar
 To run the service use the following command: 
 
 ``` shell
-curl http://localhost:8080/greeting?name=Alexandre
+curl http://localhost:8080/greeting?name=Odaceo
 ```
 
 To check the application's health use the following command:
