@@ -17,7 +17,7 @@
 
 Vagrant.configure(2) do |config|
 
-  config.vm.box = "ubuntu/xenial64"
+  config.vm.box = "bento/ubuntu-16.04"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine.
