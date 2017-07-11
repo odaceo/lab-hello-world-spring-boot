@@ -19,8 +19,8 @@
 
     "files": [
         {
-            "includePattern": "target/hello-world-springboot-(.*).jar",
-            "uploadPattern": "/lab-hello-world-spring-boot/master/hello-springboot.jar",
+            "includePattern": "target/hello-world-spring-boot-(.*).jar",
+            "uploadPattern": "/lab-hello-world-spring-boot/master/hello-spring-boot.jar",
             "matrixParams": {
                 "override": 1
             }

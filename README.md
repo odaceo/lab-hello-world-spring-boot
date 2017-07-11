@@ -43,7 +43,7 @@ mvn clean package
 To launch the application use the following command:
 
 ``` shell
-java -jar target/hello-world-springboot-0.6.2-SNAPSHOT.jar
+java -jar target/hello-world-spring-boot-0.6.2-SNAPSHOT.jar
 ```
 
 To run the service use the following command: 

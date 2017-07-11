@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ch.odaceo.lab.hello-world</groupId>
-    <artifactId>hello-world-springboot</artifactId>
+    <artifactId>hello-world-spring-boot</artifactId>
     <version>0.6.2</version>
     <packaging>jar</packaging>
 
