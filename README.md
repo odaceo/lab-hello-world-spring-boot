@@ -5,7 +5,7 @@
 
 ## Description
 
-A Simple web application with Spring Boot.
+A simple web application with Spring Boot.
 
 ## Prerequisites
 
